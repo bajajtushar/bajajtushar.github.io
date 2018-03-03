@@ -3,6 +3,6 @@ navbar:
   title: "NSSO 68"
   left:
   - text: "Home"
-    href: index.html
+    href: index.nb.html
   - text: "Presentation"
     href: maincode.nb.html
