@@ -1,7 +1,0 @@
-"0","wbrel=wb2%>%select(religion,hhsize)%>%mutate(religion=fct_lump(religion,3))%>%group_by(religion)%>%mutate(meanhh=mean(hhsize))%>%unique()"
-"0","wbrelgg=ggplot(wbrel,aes(x=religion,y=meanhh)) +  geom_point(size=7)+geom_segment(aes(x=religion,xend=religion,y=0,yend=meanhh)) + "
-"0","      labs(title=""West Bengal"",y=""Household size"",x=""Religion"") "
-"0","airel=ai.2%>%select(Religion,hhsize)%>%mutate(Religion=fct_lump(Religion,3))%>%group_by(Religion)%>%mutate(meanhh=mean(hhsize))%>%unique()"
-"0","airelgg=ggplot(airel,aes(x=Religion,y=meanhh)) +  geom_point(size=7)+geom_segment(aes(x=Religion,xend=Religion,y=0,yend=meanhh)) + "
-"0","      labs(title=""India"",y=""Household size"",x=""Religion"") "
-"0","grid.arrange(wbrelgg,airelgg,nrow=1,ncol=2)"
