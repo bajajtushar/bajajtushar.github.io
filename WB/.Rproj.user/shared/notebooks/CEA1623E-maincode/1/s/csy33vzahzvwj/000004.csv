@@ -1,0 +1,3 @@
+"0","x=wb2%>%select(region,religion,hhsize)%>%mutate(religion=fct_lump(religion,3))%>%group_by(region,religion)%>%mutate(meanhh=mean(hhsize))%>%unique()"
+"0","ggplot(x,aes(x=religion,y=meanhh)) +  geom_point(size=3,aes(col=region))+geom_segment(aes(x=religion,xend=religion,y=0,yend=meanhh))  + "
+"0","      labs(title=""Householdsize of different religions"",y=""Household size"",x=""Religion"")+ theme_bw()+facet_wrap(~region)       "

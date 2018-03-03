@@ -1,0 +1,37 @@
+---
+title: "Data analysis of West Bengal"
+author: "Tushar Bajaj"
+output:
+  html_notebook:
+    number_sections: yes
+    toc: yes
+    toc_float: yes
+  html_document:
+    df_print: paged
+    toc: yes
+---
+
+# -Introduction
+
+In this presentation, I have analysed National Sample Survey Data(Round 68) for West Bengal. It is part of Module 1 Assignment-Descriptive Analysis.The following diagram shows the process of data analysis.
+![](C:/R/data-sciencestructure.png) 
+
+
+
+
+
+## Wrangling 
+Data import, Tidy and Transform pertains to wrangling stage. These were done using R library "Tidyverse" and "Stringr" along with base R. 
+
+## visualise
+To visualise: ggplot2, ggextra,plotly,DT and leaflet libraries were used.
+
+Modeling would be done later at next stages. COmmunication is done through R markdown made web page.
+
+
+# -West Bengal
+
+![](C:/R/projectWB/westbengal_map.png)
+
+
+West Bengal is an Indian state, located in Eastern India on the Bay of Bengal. With over 91 million inhabitants (as of 2011), it is India's fourth-most populous state. The state's cultural heritage, besides varied folk traditions, includes authors in literature, such as Nobel laureate Rabindranath Tagore. Kolkata is known as the "cultural capital of India". West Bengal is also known for its enthusiasm for the sport of  football.

@@ -1,0 +1,4 @@
+"0","wb3%>%sample_n(500)%>%datatable(rownames = F,filter=list(position=""top""),"
+"0","                extensions = ""Buttons"","
+"0","                options=list(buttons=c(""colvis"",""csv""),dom=""Bfrtip"",pagelength=4,"
+"0","                             lengthMenu=c(4,6,8))) "

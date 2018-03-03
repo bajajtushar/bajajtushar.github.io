@@ -1,0 +1,8 @@
+name: "Data Analytics"
+navbar:
+  title: "NSSO 68"
+  left:
+  - text: "Home"
+    href: index.html
+  - text: "Presentation"
+    href: maincode.nb.html

@@ -1,0 +1,1 @@
+"0","wb2%>%ggplot() + geom_bar(mapping=aes(x=region,fill=sector),alpha=0.5) +ggtitle(""Frequencies of Region"") +ylab(""Proportion of sector"") + theme_classic()"

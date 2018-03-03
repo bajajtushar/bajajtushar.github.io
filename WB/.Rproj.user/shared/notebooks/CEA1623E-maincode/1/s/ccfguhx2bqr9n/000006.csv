@@ -1,0 +1,5 @@
+"0","wb2$religion=fct_lump(wb2$religion,3)"
+"0","ggplot(wb2,aes(x=`social group`,y=landowned)) +"
+"0","  geom_boxplot(varwidth = TRUE,fill=""plum"")+"
+"0","  coord_cartesian(ylim=c(0,0.5))+"
+"0","  theme(axis.text.x = element_text(angle=65, vjust=0.6))+labs(title=""Boxplot of Landownership"") +facet_wrap(~religion)"

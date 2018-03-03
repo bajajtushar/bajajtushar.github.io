@@ -1,0 +1,3 @@
+"0","wb2%>%datatable(rownames = F,filter=list(position=""top""),"
+"0","                extensions = 'Buttons' ,"
+"0","                options=list(buttons=c(""colvis"",""csv""),dom=""Bfrtip"")) "
